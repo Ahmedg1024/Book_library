@@ -1,7 +1,9 @@
+import NavBar from "../../components/NavBar"
 
 function YA() {
   return (
-    <div>YA</div>
+    <div>      <NavBar/>
+YA</div>
   )
 }
 

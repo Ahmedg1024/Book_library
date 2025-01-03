@@ -12,6 +12,13 @@ import NonFiction from './Pages/navigation/NonFiction'
 import Refer_A_Friend from './Pages/navigation/Refer_A_Friend'
 import Special_offers from './Pages/navigation/Special_offers'
 import YA from './Pages/navigation/YA'
+import Choose_a_bookStore from './search/Choose_a_bookStore'
+import Sign_in from './search/Sign_in'
+import About from './Pages/Footer/About'
+import TermsOfUse from './Pages/Footer/TermsOfUse'
+import Contact from './Pages/Footer/Contact'
+import Gift_Cards from './Pages/Footer/Gift_Cards'
+import Support from './Pages/Footer/Support'
 
 function App() {
 
@@ -19,18 +26,24 @@ function App() {
     <>
     <Routes>
       < Route path='/' index element = {<Home/>} />
-      < Route path='/Best seller' element = {<BestSeller/>} />
-      < Route path='/fiction' element = {<Fiction/>} />
+      < Route path='/Best Seller' element = {<BestSeller/>} />
+      < Route path='/Fiction' element = {<Fiction/>} />
       < Route path='/Games&Puzzels' element = {<Games/>} />
-      < Route path='/GiftCards' element = {<GiftCards/>} />
-      < Route path='/HolidayGift' element = {<HolidayGift/>} />
+      < Route path='//Gift Cards' element = {<GiftCards/>} />
+      < Route path='/Holiday Gift Guide' element = {<HolidayGift/>} />
       < Route path='/Kids' element = {<Kids/>} />
-      < Route path='/NewBooks' element = {<NewBooks/>} />
+      < Route path='/New Books' element = {<NewBooks/>} />
       < Route path='/NonFiction' element = {<NonFiction/>} />
-      < Route path='/Refer_A_Friend' element = {<Refer_A_Friend/>} />
-      < Route path='/Special_offers' element = {<Special_offers/>} />
+      < Route path='/Refer A Friend' element = {<Refer_A_Friend/>} />
+      < Route path='/Special Offers' element = {<Special_offers/>} />
       < Route path='/YA' element = {<YA/>} />
-
+      < Route path='/Choose a bookstore' element = {<Choose_a_bookStore/>} />
+      < Route path='/Sign in' element = {<Sign_in/>} />
+      <Route path='/about' element={<About/>} />
+      <Route path='/Contact' element={<Contact/>} />
+      <Route path='/Gift Cards' element={<Gift_Cards/>} />
+      <Route path='/Terms of Use' element={<TermsOfUse/>} />
+      <Route path='/Support & Help' element={<Support/>} />
     </Routes>
     </>
   )

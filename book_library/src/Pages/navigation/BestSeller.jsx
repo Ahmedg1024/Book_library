@@ -1,7 +1,11 @@
+import NavBar from "../../components/NavBar"
 
 function BestSeller() {
   return (
-    <div>BestSeller</div>
+    <div>
+      <NavBar/>
+      Best Seller
+    </div>
   )
 }
 

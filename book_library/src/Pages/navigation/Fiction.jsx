@@ -1,7 +1,11 @@
+import NavBar from "../../components/NavBar"
 
 function Fiction() {
   return (
-    <div>Fiction</div>
+    <div>
+            <NavBar/>
+            Fiction
+            </div>
   )
 }
 

@@ -1,13 +1,15 @@
 import NavBar from '../components/NavBar'
 import SearchBar from '../components/SearchBar'
-import BookCard from '../components/BookCard'
+import BooksSection from '../components/BooksSection'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
     <div>
         <SearchBar /> 
         <NavBar />
-        <BookCard />
+        <BooksSection />
+        <Footer />
     </div>
   )
 }

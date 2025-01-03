@@ -1,7 +1,11 @@
+import NavBar from "../../components/NavBar"
 
 function NonFiction() {
   return (
-    <div>NonFiction</div>
+    <div>
+        <NavBar/>
+        NonFiction
+    </div>
   )
 }
 

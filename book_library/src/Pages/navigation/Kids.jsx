@@ -1,7 +1,11 @@
+import NavBar from "../../components/NavBar"
 
 function Kids() {
   return (
-    <div>Kids</div>
+    <div>
+      <NavBar/>
+      Kids      
+    </div>
   )
 }
 
