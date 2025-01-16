@@ -1,10 +1,12 @@
 import NavBar from "../../components/NavBar"
+import SearchBar from "../../components/SearchBar"
 
 function HolidayGift() {
   return (
     <div>
-        <NavBar/>
-        Products
+      <SearchBar />
+      <NavBar/>
+      Products
     </div>
   )
 }

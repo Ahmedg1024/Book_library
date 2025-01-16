@@ -1,11 +1,13 @@
 import NavBar from "../../components/NavBar"
+import SearchBar from "../../components/SearchBar"
 
 function Fiction() {
   return (
     <div>
-            <NavBar/>
-            Fiction
-            </div>
+          <SearchBar />
+          <NavBar/>
+          Fiction
+    </div>
   )
 }
 

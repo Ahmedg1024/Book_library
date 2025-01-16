@@ -5,7 +5,8 @@ function NavBar() {
     <>
     <div className='mt-1 flex justify-center content-center mb-5'>
       <nav className='text-center justify-center content-center flex'>
-        <ul className='flex text-sm justify-center text-center place-content-center'>
+        {/* <img src=".\src\images\hamburger-menu.svg" alt="" className='invisible w-0 h-0 sm:w-2/4 sm:block '/> */}
+        <ul className='flex text-sm justify-center text-center place-content-center md:w-full'>
           <li>
             <NavLink to = "/Gift Cards" className='py-1 px-2 hover:bg-slate-500 text-center align-middle'>Gift Cards</NavLink>
           </li>

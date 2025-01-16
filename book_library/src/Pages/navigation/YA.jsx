@@ -1,9 +1,13 @@
 import NavBar from "../../components/NavBar"
+import SearchBar from "../../components/SearchBar"
 
 function YA() {
   return (
-    <div>      <NavBar/>
-YA</div>
+    <div>
+      <SearchBar />      
+      <NavBar/>
+      YA
+  </div>
   )
 }
 

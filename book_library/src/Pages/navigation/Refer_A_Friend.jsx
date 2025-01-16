@@ -1,9 +1,14 @@
 import NavBar from "../../components/NavBar"
+import SearchBar from "../../components/SearchBar"
 
 function Refer_A_Friend() {
   return (
-    <div>      <NavBar/>
-Refer_A_Friend</div>
+
+    <div>   
+      <SearchBar />
+      <NavBar/>
+      Refer_A_Friend
+    </div>
   )
 }
 
